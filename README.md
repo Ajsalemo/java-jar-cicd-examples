@@ -1,5 +1,5 @@
 # java-jar-devops-examples
-Various examples using Maven and Gradle with CI/CD, for both jar and war based deployments
+Various examples using Maven and Gradle with CI/CD, for both jar based deployments
 
 Steps to run locally:
 1. Clone this repository
