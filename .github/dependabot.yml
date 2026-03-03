@@ -1,0 +1,36 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "maven" 
+    directory: "/azure-devops-maven" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "maven" 
+    directory: "/github-actions-maven" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "maven" 
+    directory: "/github-actions-maven-azcli" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "gradle" 
+    directory: "/azure-devops-gradle" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "gradle" 
+    directory: "/github-actions-gradle" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "gradle" 
+    directory: "/github-actions-gradle-azcli" 
+    schedule:
+      interval: "weekly"
